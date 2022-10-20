@@ -1,0 +1,120 @@
+.bodyclass {
+	background-color: #060507;
+    overflow: hidden;
+}
+.navigator {
+	display: flex;
+	flex-direction: row;
+    align-items: center;
+	width: 70%;
+}
+.logo {
+	width: 40%;
+}
+
+.dropdown {
+	display: flex;
+    
+}
+.dropdownitems {
+	display: flex;
+	flex-direction: row;
+	gap: 80px;
+}
+
+.bikeprops {
+	display: flex;
+	flex-direction: row;
+    width: 100vw;
+}
+.bikeclass {
+	width: 900px;
+	height: 636px;
+}
+
+.bikepart {
+	width: 300px;
+	height: 636px;
+    position: relative;
+    z-index: 4;
+}
+.chinesetext {
+	position: absolute;
+	top: 550px;
+	width: 1200px;
+	background-repeat: no-repeat;
+}
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+text {
+	color: #ffffff;
+	font-family: "Druk Wide";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+}
+.rotate {
+	animation: sliding 5s;
+}
+@keyframes sliding {
+	from {
+		transform: translate3d(0, 0, 0);
+	}
+	to {
+		transform: translate3d(-1692px, 0, 0);
+	}
+}
+.linear {
+	animation-timing-function: linear;
+}
+.infinite {
+	animation-iteration-count: infinite;
+}
+.montlogo {
+	position: absolute;
+	left: 680px;
+	top: 80px;
+	animation: rotation 5s;
+	animation-iteration-count: infinite;
+}
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.specs {
+	position: relative;
+	top: 160px;
+	display: flex;
+	flex-direction: column;
+    background-color: black;
+    z-index: 4;
+}
+.gold {
+    position: absolute;
+	width: 30%;
+	top: 0;
+	right: 0%;
+	float: right;
+	z-index: 2;
+    height: 52%;
+}
+.photo3 {
+	width: 300px;
+	height: 150px;
+	float: right;
+	right: 200px;
+	position: relative;
+}
+.info {
+    position: relative;
+    width: 60%;
+    left: 40px;
+    top:40px;
+}
